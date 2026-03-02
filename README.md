@@ -21,3 +21,32 @@ El objetivo del sistema es representar estas relaciones utilizando estructuras v
 
 - Llevar un control de cuántos estudiantes practican cada deporte.
 
+## ASPECTOS TÉCNICOS
+Este proyecto hace uso de varias estructuras de datos para su uso, enfocado en la búsqueda más eficiente posible a través de diferentes subsistemas. Este proyecto utiliza:
+
+- Arreglos dinámicos ordenados
+- Listas doblemente enlazadas ordenadas
+- Listas sencillas
+
+En el sistema, se maneja un arreglo dinámico ordenado central que almacena los datos de todos los estudiantes registrados. Cada estudiante posee los siguientes datos:
+- ID
+- Nombre
+- Deportes que practica (Lista sencilla)
+- Deportes que le interesa (Lista sencilla)
+
+Y cada deporte mantiene su propia lista doblemente enlazada que almacena referencias al arreglo central, de ese modo los datos no son dobles. Estos referentes mantienen el índice correspondiente y se actualizan al momento de consultarse, aprovechando la posibilidad de realizar búsquedas binarias.
+
+De este modo el sistema también mantiene una relación bidireccional entre estudiantes y deportes, facilitando el acceso a la información de alguno de los dos a partir del otro.
+
+## INTEGRANTES
+- Sebastián González Giraldo
+- Jerónimo Quiñones Rueda
+- Jesús David Pinillos Rojas
+- Juan Diego Cardona Cortés
+
+## LENGUAJES UTILIZADOS
+- Java
+
+## INSTRUCCIONES DE INSTALACIÓN
+TBD.
+
